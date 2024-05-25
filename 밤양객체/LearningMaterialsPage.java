@@ -33,6 +33,8 @@ public class LearningMaterialsPage extends JPanel {
 
         JButton backButton = new JButton("메인 화면으로 돌아가기");
         backButton.addActionListener(e -> mainApp.showMainPage());
+        backButton.addActionListener(e -> mainApp.showMainPage());
+
 
         add(new JLabel("학습자료집", JLabel.CENTER), BorderLayout.NORTH);
         add(materialsPanel, BorderLayout.CENTER);
