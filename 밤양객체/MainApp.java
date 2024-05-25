@@ -45,6 +45,10 @@ public class MainApp extends JFrame {
         cardLayout.show(mainPanel, "ProgressPage");
     }
 
+    public void showex01() {
+        cardLayout.show(mainPanel, "ex01");
+    }
+
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new MainApp().setVisible(true));
     }
